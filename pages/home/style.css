@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:visited {
+  color: inherit;
+}
+ 
+/* Estilo geral para a lista */
+.header .links {
+  list-style-type: none; /* Remove os marcadores da lista */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  display: flex; /* Exibe os itens em linha */
+  justify-content: space-between; /* Distribui os itens uniformemente */
+  align-items: center; /* Centraliza verticalmente os itens */
+  width: 100%; /* Ocupa toda a largura do contêiner */
+}
+
+/* Estilo para cada item da lista */
+.header .links li {
+  margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo para os links */
+.header .links a {
+  text-decoration: none; /* Remove sublinhado */
+  padding: 10px 20px; /* Adiciona preenchimento ao redor dos links */
+}
+
